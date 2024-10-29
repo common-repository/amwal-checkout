@@ -1,0 +1,43 @@
+{
+    "name": "amwal/amwal-checkout",
+    "description": "Amwal Checkout plugin for WooCommerce",
+    "license": "GPL-3.0-or-later",
+    "type": "wordpress-plugin",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "sentry/sentry": "^4.5"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "composer dump-autoload"
+        ],
+        "post-update-cmd": [
+            "composer dump-autoload"
+        ],
+        "test": [
+            "phpunit"
+        ],
+        "phpcs": [
+            "phpcs -s -p"
+        ],
+        "phpcs-pre-commit": [
+            "phpcs -s -p -n"
+        ],
+        "phpcbf": [
+            "phpcbf -p"
+        ]
+    },
+    "autoload": {
+        "files": [
+            "includes/admin/constants.php",
+            "includes/admin/fields.php",
+            "includes/admin/notices.php",
+            "includes/admin/settings.php"
+
+        ],
+        "psr-4": {
+            "Amwal\\": "includes"
+        }
+    }
+}

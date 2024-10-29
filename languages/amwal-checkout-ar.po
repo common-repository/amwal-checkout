@@ -1,0 +1,448 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Amwal Checkout\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-07 15:51+0000\n"
+"PO-Revision-Date: 2024-03-20 09:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.3.2\n"
+"X-Domain: amwal-checkout\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5;"
+
+#. Description of the plugin
+msgid ""
+"1-click biometric checkout- the fastest and most secure way to accept online "
+"payments."
+msgstr ""
+"الدفع البيومتري بنقرة واحدة - الطريقة الأسرع والأكثر أمانًا لقبول المدفوعات "
+"عبر الإنترنت."
+
+#: includes/admin/settings.php:405
+msgid ""
+"Add a full link of checkout url to be able to use installment options in "
+"Amwal Checkout Button."
+msgstr ""
+"أضف رابطًا كاملاً لعنوان checkout url لتتمكن من استخدام خيارات التقسيط في زر "
+"الدفع الخاص بأموال."
+
+#: includes/admin/settings.php:640
+msgid ""
+"Add cards bins comma separated to add offers to them. i.e : 123456,654321"
+msgstr "إضافة bin cards بفواصل لإضافة العروض إليها. مثال: 123456,654321"
+
+#: includes/admin/settings.php:419
+msgid ""
+"Add product categories,tags slugs comma separated to exclude from "
+"installment options in Amwal Checkout Button."
+msgstr ""
+"أضف فئات المنتجات والعلامات البزاقة مفصولة بفواصل لاستبعادها من خيارات "
+"التقسيط في زر الدفع الخاص بأموال"
+
+#: includes/admin/settings.php:145
+msgid "Address Options"
+msgstr "خيارات العنوان"
+
+#: includes/admin/settings.php:265
+msgid "Address Required "
+msgstr "العنوان مطلوب"
+
+#: includes/admin/settings.php:266
+msgid "Address Required In Virtual Products "
+msgstr "العنوان مطلوب في المنتجات الافتراضية"
+
+#: includes/admin/settings.php:599 includes/admin/settings.php:666
+msgid "After Add To Cart Button"
+msgstr "بعد زر الإضافة إلى عربة التسوق"
+
+#: includes/admin/settings.php:598 includes/admin/settings.php:663
+msgid "After Add To Cart Form"
+msgstr "بعد إضافة إلى نموذج السلة"
+
+#: includes/admin/settings.php:838
+msgid "After Cart Review"
+msgstr "بعد مراجعة العربة"
+
+#: includes/admin/settings.php:839
+msgid "After Order Totals"
+msgstr "بعد إجمالي الطلب"
+
+#: includes/admin/settings.php:600 includes/admin/settings.php:667
+msgid "After Product Summary"
+msgstr "بعد ملخص المنتج"
+
+#. Author of the plugin
+msgid "Amwal"
+msgstr "اموال"
+
+#: includes/admin/settings.php:254
+msgid "Amwal API Key"
+msgstr "مفتاح API أموال"
+
+#: includes/admin/settings.php:255
+msgid "Amwal API Secret"
+msgstr "سر أموال API"
+
+#. Name of the plugin
+#: includes/admin/settings.php:98
+msgid "Amwal Checkout"
+msgstr "‫Amwal Checkout"
+
+#: includes/admin/notices.php:54
+msgid "Amwal Checkout for WooCommerce is currently in Debug Mode."
+msgstr "شراء أموال لـ WooCommerce متواجد حاليًا في وضع التصحيح.‬"
+
+#: includes/admin/notices.php:47
+msgid "Amwal Checkout for WooCommerce is currently in Test Mode."
+msgstr "شراء أموال لـ WooCommerce متواجد حاليًا في وضع الاختبار."
+
+#: includes/admin/settings.php:97 templates/admin/amwal-settings.php:13
+msgid "Amwal Settings"
+msgstr "اعدادات اموال"
+
+#: includes/admin/settings.php:858
+msgid "Automatically render button in checkout page"
+msgstr "قم بعرض الزر تلقائيًا في صفحة الخروج"
+
+#: includes/admin/settings.php:597 includes/admin/settings.php:662
+msgid "Before Add To Cart Form"
+msgstr "قبل إضافة إلى نموذج السلة"
+
+#: includes/admin/settings.php:837
+msgid "Before Checkout"
+msgstr "قبل الشراء"
+
+#: includes/admin/settings.php:867
+msgid "Before Customer Details"
+msgstr "قبل تفاصيل العميل"
+
+#: includes/admin/settings.php:868
+msgid "Before Order Review"
+msgstr "قبل مراجعة الطلب"
+
+#: includes/admin/settings.php:869
+msgid "Before Payment"
+msgstr "قبل الدفع"
+
+#: includes/admin/settings.php:870
+msgid "Before Submit"
+msgstr "قبل الإرسال"
+
+#: includes/admin/settings.php:148
+msgid "Button Options"
+msgstr "خيارات الزر"
+
+#: includes/admin/settings.php:312
+msgid "Cards bins"
+msgstr "‫Cards bins"
+
+#: includes/admin/settings.php:291
+msgid "Cart page button placement"
+msgstr "ترتيب الزر في صفحة العربة"
+
+#: includes/admin/settings.php:301
+msgid "Cart page button styles"
+msgstr "أنماط زر صفحة العربة"
+
+#: includes/hooks.php:52
+msgid "Check Transaction Details"
+msgstr "تحقق من تفاصيل المعاملة"
+
+#: includes/hooks.php:62
+#, php-format
+msgid "Check transaction details %s."
+msgstr "تحقق من تفاصيل المعاملة %s"
+
+#: includes/admin/settings.php:303
+msgid "Checkout page button styles"
+msgstr "أنماط زر صفحة الخروج"
+
+#: includes/admin/settings.php:144
+msgid "Configuration"
+msgstr "إعدادات"
+
+#: includes/admin/settings.php:77 includes/admin/settings.php:329
+msgid "Create account on Amwal.tech to get an Merchant ID and enter it here."
+msgstr "قم بإنشاء حساب على Amwal.tech للحصول على معرف التاجر وإدخاله هنا."
+
+#: includes/admin/settings.php:256
+msgid "Currency"
+msgstr "العملة"
+
+#: includes/admin/settings.php:258
+msgid "Dark Mode"
+msgstr "الوضع الداكن"
+
+#: includes/admin/settings.php:260
+msgid "Debug Mode"
+msgstr "وضع التصحيح"
+
+#: includes/admin/settings.php:936
+msgid "Display all shipping methods"
+msgstr "عرض جميع طرق الشحن"
+
+#: includes/admin/settings.php:375
+msgid "Don't have a Secret Api Key yet ?"
+msgstr "ليس لديك مفتاح API سري بعد؟"
+
+#: includes/admin/settings.php:75 includes/admin/settings.php:327
+msgid "Don't have an app yet?"
+msgstr "ليس لديك تطبيق بعد؟"
+
+#: includes/admin/settings.php:900
+msgid "Enable address required option"
+msgstr "تمكين خيار العنوان المطلوب"
+
+#: includes/admin/settings.php:913
+msgid "Enable address required option even in virtual products"
+msgstr "تمكين خيار العنوان المطلوب حتى في المنتجات الافتراضية"
+
+#: includes/class-wc-gateway-amwal.php:76
+msgid "Enable Amwal"
+msgstr "تفعيل أموال"
+
+#: includes/admin/settings.php:464
+msgid "Enable Dark Mode for the Amwal Buttons."
+msgstr "تمكين الوضع الداكن لأزرار أموال"
+
+#: includes/admin/settings.php:994
+msgid "Enable debug mode"
+msgstr "تمكين وضع التصحيح"
+
+#: includes/admin/settings.php:926
+msgid "Enable guest email required option"
+msgstr "تمكين خيار البريد الإلكتروني للضيف المطلوب"
+
+#: includes/admin/settings.php:448
+msgid "Enable guest to automatically login after successful payment"
+msgstr "تمكين العميل الغير مسجل من تسجيل الدخول تلقائيًا بعد الدفع الناجح"
+
+#: includes/admin/settings.php:971
+msgid "Enable test mode"
+msgstr "تفعيل وضع الاختبار"
+
+#: includes/class-wc-gateway-amwal.php:74
+msgid "Enable/Disable"
+msgstr "تفعيل/تعطيل"
+
+#: includes/admin/settings.php:784
+msgid "Exclude Countries From Postal Code Required."
+msgstr "استبعاد البلدان من الرمز البريدي المطلوب."
+
+#: includes/admin/settings.php:271
+msgid "Exclude shipping methods"
+msgstr "استبعاد طرق الشحن"
+
+#: includes/admin/settings.php:697
+msgid "Exclude Shipping methods "
+msgstr "استبعاد طرق الشحن"
+
+#: includes/admin/settings.php:299
+msgid "Extra javascript events"
+msgstr "أحداث إضافية في الجافا سكريبت"
+
+#: includes/admin/settings.php:304
+msgid "Extra styles"
+msgstr "أنماط إضافية"
+
+#: includes/admin/settings.php:377
+msgid "Go to merchant account. Get the Secret API Key."
+msgstr "انتقل إلى حساب التاجر  و  احصل على مفتاح API السري"
+
+#: includes/admin/settings.php:257
+msgid "Guest Auto Login"
+msgstr "تسجيل الدخول التلقائي العميل الغير المسجل"
+
+#: includes/admin/settings.php:267
+msgid "Guest Email Required"
+msgstr "البريد الإلكتروني للضيف مطلوب"
+
+#: includes/admin/settings.php:937
+msgid "Hide all other shipping methods and only show \"Free Shipping\""
+msgstr "إخفاء جميع طرق الشحن الأخرى وإظهار “الشحن المجاني” فقط"
+
+#: includes/admin/settings.php:938
+msgid ""
+"Hide all other shipping methods and only show \"Free Shipping\" and \"Local "
+"Pickup\" "
+msgstr ""
+"إخفاء جميع طرق الشحن الأخرى وإظهار فقط “الشحن المجاني” و”الاستلام المحلي”"
+
+#: includes/admin/settings.php:270
+msgid "Hide shipping methods"
+msgstr "إخفاء طرق الشحن"
+
+#. Author URI of the plugin
+msgid "https://amwal.tech"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://amwal.tech/"
+msgstr ""
+
+#: includes/admin/settings.php:147
+msgid "Installments Options"
+msgstr "خيارات التقسيط"
+
+#: includes/admin/settings.php:302
+msgid "Mini cart widget button styles"
+msgstr "أنماط زر ويدجت السلة المصغرة"
+
+#: includes/class-wc-gateway-amwal.php:31
+msgid ""
+"Note: Quick Checkout will continue to function even if it is disabled as a "
+"payment gateway. This option is here for integrations that require an active "
+"payment gateway code."
+msgstr ""
+"ملاحظة: سيستمر الشراء السريع في العمل حتى إذا تم تعطيله كبوابة دفع. هذا "
+"الخيار متاح لعمليات التكامل التي تتطلب رمز بوابة دفع نشطًا."
+
+#: includes/admin/settings.php:150
+msgid "Offers"
+msgstr "العروض"
+
+#: includes/admin/settings.php:272
+msgid "Optional Postal Code"
+msgstr "الرمز البريدي الاختياري"
+
+#: includes/class-wc-gateway-amwal.php:53
+msgid "Pay securely with MADA, credit cards or with Apple Pay"
+msgstr "الدفع بأمان باستخدام مدى، بطاقات الائتمان أو باستخدام Apple Pay"
+
+#: includes/class-wc-gateway-amwal.php:44
+msgid "Payment through"
+msgstr "الدفع عبر"
+
+#: includes/admin/settings.php:288
+msgid "Product button placement"
+msgstr "ترتيب الزر في صفحة المنتج"
+
+#: includes/admin/settings.php:280
+msgid "Product Instalment Slugs"
+msgstr "أنواع الأقساط في المنتج"
+
+#: includes/admin/settings.php:300
+msgid "Product page button styles"
+msgstr "أنماط زر صفحة المنتج"
+
+#: includes/admin/settings.php:310
+msgid "Promo code for Amwal orders"
+msgstr "كود الترويج لطلبات أموال"
+
+#: includes/admin/settings.php:311
+msgid "Promo code for cards bins"
+msgstr "كود الترويج ل bin cards"
+
+#: includes/admin/settings.php:308
+msgid "Promo snippet message"
+msgstr "محتوى المقتطف الترويجي"
+
+#: includes/admin/settings.php:309
+msgid "Promo snippet position"
+msgstr "موضع المقتطف الترويجي"
+
+#: includes/class-wc-gateway-amwal.php:46
+#: includes/class-wc-gateway-amwal.php:54 includes/button.php:86
+msgid "Quick Checkout"
+msgstr "شراء سريع"
+
+#: includes/admin/settings.php:85
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: includes/admin/settings.php:146
+msgid "Shipping Options"
+msgstr "خيارات الشحن"
+
+#: includes/admin/settings.php:274
+#| msgid "Shipping to cities in English"
+msgid "Shipping to cities  in English"
+msgstr "الشحن إلى المدن باللغة الإنجليزية"
+
+#: includes/admin/settings.php:276
+msgid "Shipping to cities in Arabic"
+msgstr "الشحن للمدن باللغة العربية"
+
+#: includes/admin/settings.php:275
+msgid "Shipping to states in Arabic"
+msgstr "الشحن إلى المحافظات باللغة العربية"
+
+#: includes/admin/settings.php:273
+msgid "Shipping to states in English"
+msgstr "الشحن إلى المحافظات باللغة الانجليزيه"
+
+#: includes/admin/settings.php:307
+msgid "Show discount ribbon"
+msgstr "عرض شريط الخصم"
+
+#: includes/admin/settings.php:588
+msgid "Show discount ribbon."
+msgstr "عرض شريط الخصم."
+
+#: includes/admin/settings.php:149
+msgid "Styles"
+msgstr "الأنماط"
+
+#: includes/admin/settings.php:259
+msgid "Test Mode"
+msgstr "وضع الاختبار"
+
+#: includes/admin/settings.php:449
+msgid ""
+"This will allow the guest to view the thank you page after successful "
+"payment."
+msgstr "سيسمح هذا للعميل الفير مسجل بمشاهدة صفحة الشكر بعد الدفع الناجح."
+
+#: includes/hooks.php:83
+msgid "Transactions status is not success on Quick Checkout"
+msgstr "حالة المعاملات غير ناجحة في شراء سريع"
+
+#: includes/admin/settings.php:943
+msgid "When \"Free Shipping\" is available during checkout"
+msgstr "عندما يكون “الشحن المجاني” متاحًا أثناء الشراء"
+
+#: includes/admin/settings.php:914
+msgid ""
+"When address required option is enabled, Amwal Checkout Plugin will require "
+"the address even in virtual products."
+msgstr ""
+"عند تفعيل خيار العنوان المطلوب، فإن Amwal Checkout سيطلب العنوان حتى في "
+"المنتجات الافتراضية."
+
+#: includes/admin/settings.php:901
+msgid ""
+"When address required option is enabled, Amwal Checkout Plugin will return "
+"the address."
+msgstr "عند تفعيل خيار العنوان المطلوب، سيقوم تطبيق شراء سريع  بإرجاع العنوان."
+
+#: includes/admin/settings.php:927
+msgid ""
+"When address required option is enabled, Amwal Checkout Plugin will send "
+"order confirmation email to the guest."
+msgstr ""
+"عند تفعيل خيار العنوان المطلوب، سيقوم تطبيق شراء سريع بإرسال بريد إلكتروني "
+"لتأكيد الطلب إلى الضيف."
+
+#: includes/admin/settings.php:995
+msgid ""
+"When debug mode is enabled, the Amwal plugin will maintain an error log."
+msgstr "عند تمكين وضع التصحيح، سيحتفظ تطبيق شراء سريع بسجل للأخطاء."
+
+#: includes/admin/settings.php:972
+msgid ""
+"When test mode is enabled, only logged-in admin users will see the Amwal "
+"Checkout button."
+msgstr ""
+"عند تمكين وضع الاختبار، لن يتمكن سوى المستخدمين الإداريين الذين قاموا بتسجيل "
+"الدخول من رؤية زر “شراء سريع”."
+
+#: includes/admin/settings.php:465
+msgid ""
+"When this box is checked, the Amwal buttons will be rendered in dark mode."
+msgstr "عند تحديد هذا المربع، سيتم عرض أزرار أموال في الوضع الداكن."

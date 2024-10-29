@@ -1,0 +1,395 @@
+.amwal-container {
+  clear: both;
+  flex-basis: 360px;
+}
+
+.amwal-container::before,
+.amwal-container::after {
+  display: block;
+  content: '';
+  flex-basis: 100%;
+  height: 0;
+}
+
+.amwal-wrap {
+  clear: both;
+  display: flex;
+  padding: 14px 0 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%
+}
+
+.amwal-separator {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  font: 400 .85rem Arial, sans-serif;
+  text-transform: none;
+  letter-spacing: normal;
+  font-variant: normal;
+  text-rendering: geometricPrecision;
+  margin: 5px 0 15px;
+  color: #aaa;
+}
+
+.amwal-separator::before,
+.amwal-separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #eee;
+}
+
+.amwal-separator:not(:empty)::before {
+  margin-right: .5em;
+}
+
+.amwal-separator:not(:empty)::after {
+  margin-left: .5em;
+}
+
+button.amwal-checkout,
+button.amwal-checkout:hover,
+button.amwal-checkout:focus {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-grow: 1;
+  width: 100%;
+  height: 52px;
+  margin: 7px auto;
+  padding: 8px 10px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background: #080808;
+  border-radius: 7px;
+  text-decoration: none !important;
+  transform: none;
+  cursor: pointer;
+}
+
+button.amwal-checkout::before,
+button.amwal-checkout:hover::before,
+button.amwal-checkout:focus::before,
+button.amwal-checkout::after,
+button.amwal-checkout:hover::after,
+button.amwal-checkout:focus::after {
+  content: none !important;
+}
+
+
+.amwal-logo {
+  position: absolute;
+  top: 0px;
+  right: 7px;
+  line-height: normal;
+  color: #fafafa;
+}
+
+.amwal-mini-cart .amwal-checkout,
+.amwal-mini-cart .amwal-checkout:hover,
+.amwal-mini-cart .amwal-checkout:focus {
+  height: 45px;
+  margin: 0 auto 7px;
+}
+
+
+/*.amwal-product-page{*/
+/*  padding-top: .5em;*/
+/*}*/
+
+.payment_method_Amwal label img{
+  height: 18px;
+}
+
+#amwalPromo {
+  
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 18px 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgb(41 41 41 / 15%);
+  border-radius: 7px;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: Inter, sans-serif;
+  transition: all 0.5s;
+
+}
+
+
+
+:host {
+  --font-size-base: 12px;
+  --inline-outline-space-x: 16px;
+  --inline-outline-space-y: 16px;
+  --inline-outlined-background-color-hover: #F2F2F2;
+  --inline-contained-space-x: 16px;
+  --inline-contained-space-y: 16px;
+  --inline-border-color: #E5E5E5;
+  --inline-contained-background-color: #F2F2F2;
+  --badge-scaling-ratio: 1;
+  --badge-size: 64px;
+  --badge-height-max: 20px;
+}
+
+
+@media (min-width: 487px) {
+  :host {
+    --font-size-base: 14px;
+    --badge-size: 115px;
+  }
+}
+
+:host [dir=rtl] {
+  --font-primary: "IBM Plex Sans Arabic", sans-serif;
+  --font-secondary: "Noto Sans Arabic", sans-serif
+}
+
+.relative {
+  position: relative
+}
+
+.amwal-inline-badge {
+  vertical-align: middle
+}
+
+.amwal-inline-learn-more-link {
+  display: inline;
+  font-weight: 500;
+  text-decoration: underline
+}
+
+[dir=rtl] .amwal-inline-learn-more-link {
+  font-weight: 700
+}
+
+.amwal-summary-widget__container {
+  cursor: pointer;
+  display: block;
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-base);
+  font-weight: 400;
+  line-height: calc(var(--font-size-base) * 1.5);
+  white-space: normal
+}
+
+.amwal-summary-widget__container .amwal-badge {
+  max-height: 1.618em;
+  transform: scale(var(--badge-scaling-ratio))
+}
+
+.amwal-summary-widget__container.badge-position--is-right {
+  display: flex;
+  justify-content: space-between;
+  min-height: 24px;
+  position: relative
+}
+
+.amwal-summary-widget__container.badge-position--is-right .amwal-badge {
+  margin-left: 16px;
+  transform: scale(var(--badge-scaling-ratio));
+  transform-origin: right
+}
+
+.amwal-summary-widget__inline__text {
+  display: inline
+}
+
+.amwal-summary-widget__amount {
+  font-weight: 700
+}
+
+.amwal-summary-widget__bundle-ui {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start
+}
+
+.amwal-summary-widget__bundle-ui .amwal-badge {
+  margin-left: 16px
+}
+
+.amwal-summary-widget__bundle-ui .amwal-summary-widget__amount {
+  font-weight: 400
+}
+
+.amwal-summary-widget__bundle-ui.badge-position--is-end-line {
+  justify-content: flex-start
+}
+
+.amwal-summary-widget__bundle-ui.badge-position--is-right {
+  justify-content: space-between
+}
+
+.amwal-summary-widget__bundle-ui.amwal-summary-widget__inline-template-6 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px
+}
+
+.amwal-summary-widget__bundle-ui.amwal-summary-widget__inline-template-6.badge-position--is-right {
+  flex-direction: row
+}
+
+.amwal-summary-widget__bundle-ui.amwal-summary-widget__inline-template-6.badge-position--is-right .amwal-badge {
+  margin-left: 0;
+  margin-right: 0
+}
+
+.amwal-summary-widget__bundle-ui.amwal-summary-widget__inline-template-6 .amwal-badge {
+  margin-left: 0;
+  margin-right: 12px
+}
+
+.amwal-summary-widget__bundle-ui.amwal-summary-widget__inline-template-6 .amwal-summary-widget__extra-content {
+  border: .5px solid hsla(0, 0%, 80%, .7);
+  border-radius: 14px;
+  margin-top: 20px;
+  width: 100%
+}
+
+.amwal-summary-widget__bundle-ui.amwal-summary-widget__inline-template-6 .amwal-summary-widget__extra-content .popup-content__extra-content__body {
+  padding: 16px
+}
+
+.amwal-summary-widget__bundle-ui.amwal-summary-widget__inline-template-6 .amwal-summary-widget__extra-content .popup-content__extra-content__body .divider {
+  border-top: .5px solid #e5e5e5;
+  margin-bottom: 14px;
+  margin-top: 14px
+}
+
+.amwal-summary-widget__bundle-ui.amwal-summary-widget__inline-template-6 .amwal-summary-widget__extra-content .popup-content__extra-content__body .popup-content__extra-content__item {
+  align-items: center;
+  display: flex
+}
+
+.amwal-summary-widget__bundle-ui.amwal-summary-widget__inline-template-6 .amwal-summary-widget__extra-content .popup-content__extra-content__body .popup-content__extra-content__item .item-status-icon {
+  flex: 0 0 22px;
+  height: 22px;
+  width: 22px
+}
+
+.amwal-summary-widget__bundle-ui.amwal-summary-widget__inline-template-6 .amwal-summary-widget__extra-content .popup-content__extra-content__body .popup-content__extra-content__item .item-status-icon svg {
+  height: 22px;
+  width: 22px
+}
+
+.amwal-summary-widget__bundle-ui.amwal-summary-widget__inline-template-6 .amwal-summary-widget__extra-content .popup-content__extra-content__body .popup-content__extra-content__item .item-label {
+  flex: 1 1;
+  font-family: var(--font-secondary);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-left: 8px
+}
+
+.amwal-summary-widget__bundle-ui.amwal-summary-widget__inline-template-6 .amwal-summary-widget__extra-content .popup-content__extra-content__body .popup-content__extra-content__item .item-arrow-navigation {
+  flex: 0 0 20px;
+  height: 20px;
+  width: 20px
+}
+
+.amwal-summary-widget__bundle-ui.amwal-summary-widget__inline-template-6 .amwal-summary-widget__extra-content .popup-content__extra-content__body .popup-content__extra-content__item .item-arrow-navigation svg {
+  height: 20px;
+  width: 20px
+}
+
+.amwal-summary-widget__bundle-ui.amwal-summary-widget__inline-template-6 .amwal-summary-widget__extra-content .popup-content__extra-content__footer {
+  align-items: flex-start;
+  border-top: .5px solid #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  padding: 16px
+}
+
+.amwal-summary-widget__bundle-ui.amwal-summary-widget__inline-template-6 .amwal-summary-widget__extra-content .popup-content__extra-content__footer > :not(template) ~ :not(template) {
+  margin-top: 12px
+}
+
+.amwal-summary-widget__bundle-ui.amwal-summary-widget__inline-template-6 .amwal-summary-widget__extra-content .popup-content__extra-content__footer .footer-item {
+  align-items: center;
+  display: flex;
+  width: 100%
+}
+
+.amwal-summary-widget__bundle-ui.amwal-summary-widget__inline-template-6 .amwal-summary-widget__extra-content .popup-content__extra-content__footer .footer-item .footer-item__icon {
+  align-items: center;
+  background-color: rgba(225, 209, 255, .25);
+  border-radius: 50%;
+  display: flex;
+  flex: 0 0 32px;
+  height: 32px;
+  justify-content: center
+}
+
+.amwal-summary-widget__bundle-ui.amwal-summary-widget__inline-template-6 .amwal-summary-widget__extra-content .popup-content__extra-content__footer .footer-item .footer-item__icon svg {
+  height: 16px;
+  width: 16px
+}
+
+.amwal-summary-widget__bundle-ui.amwal-summary-widget__inline-template-6 .amwal-summary-widget__extra-content .popup-content__extra-content__footer .footer-item .footer-item__label {
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-left: 12px
+}
+
+.amwal-summary-widget--inline-outlined {
+  border: 1px solid var(--inline-border-color);
+  border-radius: 12px;
+  padding: var(--inline-outline-space-y) var(--inline-outline-space-x);
+  transition: background-color .3s linear
+}
+
+.amwal-summary-widget--inline-outlined:hover {
+  background-color: var(--inline-outlined-background-color-hover);
+  transition: background-color .3s linear
+}
+
+.amwal-summary-widget--inline-contained {
+  background-color: var(--inline-contained-background-color);
+  border: 1px solid var(--inline-border-color);
+  border-radius: 12px;
+  padding: var(--inline-contained-space-y) var(--inline-contained-space-x)
+}
+
+.amwal-summary-widget__container[dir=rtl].amwal-summary-widget__bundle-ui .amwal-badge {
+  margin-left: 0;
+  margin-right: 16px
+}
+
+.amwal-summary-widget__container[dir=rtl].amwal-summary-widget__bundle-ui.amwal-summary-widget__inline-template-6 .amwal-badge {
+  margin-left: 12px;
+  margin-right: 0
+}
+
+.amwal-summary-widget__container[dir=rtl].amwal-summary-widget__bundle-ui.amwal-summary-widget__inline-template-6.badge-position--is-right .amwal-badge {
+  margin-left: 0;
+  margin-right: 0
+}
+
+
+#amwalwc_checkout_payment_brands_logos{
+  padding-bottom: 3px;
+  height: auto;
+  width: 12em;
+  float: inline-end;
+}
